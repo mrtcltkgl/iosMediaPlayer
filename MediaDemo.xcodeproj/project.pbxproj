@@ -15,6 +15,10 @@
 		FBE2E8431C89F1970053FA8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE2E8411C89F1970053FA8F /* LaunchScreen.storyboard */; };
 		FBE2E84E1C89F1970053FA8F /* MediaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE2E84D1C89F1970053FA8F /* MediaDemoTests.m */; };
 		FBE2E8591C89F1970053FA8F /* MediaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE2E8581C89F1970053FA8F /* MediaDemoUITests.m */; };
+		FBE2E8671C89F4BB0053FA8F /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE2E8661C89F4BB0053FA8F /* AVKit.framework */; };
+		FBE2E8691C89F5F60053FA8F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE2E8681C89F5F60053FA8F /* AVFoundation.framework */; };
+		FBE2E86B1C89F9D60053FA8F /* 4.7inch.mp4 in Sources */ = {isa = PBXBuildFile; fileRef = FBE2E86A1C89F93F0053FA8F /* 4.7inch.mp4 */; };
+		FBE2E86C1C89FAD80053FA8F /* 4.7inch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FBE2E86A1C89F93F0053FA8F /* 4.7inch.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,9 @@
 		FBE2E8541C89F1970053FA8F /* MediaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE2E8581C89F1970053FA8F /* MediaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaDemoUITests.m; sourceTree = "<group>"; };
 		FBE2E85A1C89F1970053FA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE2E8661C89F4BB0053FA8F /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		FBE2E8681C89F5F60053FA8F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FBE2E86A1C89F93F0053FA8F /* 4.7inch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.7inch.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE2E8691C89F5F60053FA8F /* AVFoundation.framework in Frameworks */,
+				FBE2E8671C89F4BB0053FA8F /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,8 @@
 		FBE2E8271C89F1970053FA8F = {
 			isa = PBXGroup;
 			children = (
+				FBE2E8661C89F4BB0053FA8F /* AVKit.framework */,
+				FBE2E8681C89F5F60053FA8F /* AVFoundation.framework */,
 				FBE2E8321C89F1970053FA8F /* MediaDemo */,
 				FBE2E84C1C89F1970053FA8F /* MediaDemoTests */,
 				FBE2E8571C89F1970053FA8F /* MediaDemoUITests */,
@@ -109,6 +120,7 @@
 				FBE2E83F1C89F1970053FA8F /* Assets.xcassets */,
 				FBE2E8411C89F1970053FA8F /* LaunchScreen.storyboard */,
 				FBE2E8441C89F1970053FA8F /* Info.plist */,
+				FBE2E86A1C89F93F0053FA8F /* 4.7inch.mp4 */,
 				FBE2E8331C89F1970053FA8F /* Supporting Files */,
 			);
 			path = MediaDemo;
@@ -243,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE2E86C1C89FAD80053FA8F /* 4.7inch.mp4 in Resources */,
 				FBE2E8431C89F1970053FA8F /* LaunchScreen.storyboard in Resources */,
 				FBE2E8401C89F1970053FA8F /* Assets.xcassets in Resources */,
 				FBE2E83E1C89F1970053FA8F /* Main.storyboard in Resources */,
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE2E86B1C89F9D60053FA8F /* 4.7inch.mp4 in Sources */,
 				FBE2E83B1C89F1970053FA8F /* ViewController.m in Sources */,
 				FBE2E8381C89F1970053FA8F /* AppDelegate.m in Sources */,
 				FBE2E8351C89F1970053FA8F /* main.m in Sources */,
